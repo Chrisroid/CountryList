@@ -2,4 +2,8 @@
     <string name="app_name">Country List</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="previous">previous</string>
+    <string name="hello_first_fragment">Hello First Fragment</string>
+    <string name="next">Next</string>
+    <string name="action_settings">Settings</string>
 </resources>
