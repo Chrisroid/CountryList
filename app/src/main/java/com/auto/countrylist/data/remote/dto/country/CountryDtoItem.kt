@@ -1,6 +1,6 @@
 package com.auto.countrylist.data.remote.dto.country
 
-data class CountrDtoItem(
+data class CountryDtoItem(
     val altSpellings: List<String>,
     val area: Double,
     val borders: List<String>,
