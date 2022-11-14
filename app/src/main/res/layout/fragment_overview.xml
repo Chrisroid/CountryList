@@ -4,25 +4,96 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.OverviewFragment">
+    tools:context=".ui.overview.OverviewFragment">
 
-    <TextView
-        android:id="@+id/textview_first"
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:textAppearance="?attr/textAppearanceHeadline5"
+        android:textStyle="bold|italic"
+        android:layout_height="wrap_content"
+        android:text="@string/explore"
+        app:layout_constraintBottom_toBottomOf="@+id/night_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/night_button" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/night_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_first_fragment"
-        app:layout_constraintBottom_toTopOf="@id/button_first"
+        android:src="@drawable/ic_mode_night"
+        android:padding="6dp"
+        android:background="@drawable/button_background"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button_first"
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/day_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/next"
+        android:padding="6dp"
+        android:background="@drawable/button_background"
+        android:src="@drawable/ic_light_mode"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.SearchView
+        android:layout_marginTop="10dp"
+        android:id="@+id/search_list"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toBottomOf="@id/night_button"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/language"
+        android:text="@string/en"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:drawableStart="@drawable/ic_language"
+        android:contentDescription="@string/select_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/search_list" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/filter"
+        android:layout_width="wrap_content"
+        android:background="@drawable/button_background"
+        android:contentDescription="@string/filter"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:text="@string/filter"
+        android:drawableStart="@drawable/ic_filter"
+        app:layout_constraintBottom_toBottomOf="@+id/language"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/language" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="10dp"
+        android:id="@+id/countries_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="?actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/language" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/no_internet_connection"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textview_first" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/black_no_internet_connection" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

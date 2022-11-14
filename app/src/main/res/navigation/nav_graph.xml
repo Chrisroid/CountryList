@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/overviewFragment"
-        android:name="com.auto.countrylist.ui.OverviewFragment"
+        android:name="com.auto.countrylist.ui.overview.OverviewFragment"
         android:label="fragment_overview"
         tools:layout="@layout/fragment_overview" >
         <action
@@ -17,12 +17,16 @@
 
     <fragment
         android:id="@+id/detailFragment"
-        android:name="com.auto.countrylist.ui.DetailFragment"
+        android:name="com.auto.countrylist.ui.details.DetailFragment"
         android:label="fragment_detail"
         tools:layout="@layout/fragment_detail">
         <action
             android:id="@+id/action_detailFragment_to_overviewFragment"
             app:destination="@id/overviewFragment" />
+
+        <argument
+            android:name="country"
+            app:argType="com.auto.countrylist.data.remote.dto.country.CountryDto"/>
     </fragment>
 
 </navigation>

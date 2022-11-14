@@ -3,10 +3,28 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/CountryList/app/src/main/res/drawable/button_background.xml" value="0.1445" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/CountryList/app/src/main/res/drawable/ic_cancel.xml" value="0.1445" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/CountryList/app/src/main/res/drawable/ic_dropdown.xml" value="0.1445" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/CountryList/app/src/main/res/drawable/ic_filter.xml" value="0.1445" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/CountryList/app/src/main/res/drawable/ic_language.xml" value="0.1445" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/CountryList/app/src/main/res/drawable/ic_light_mode.xml" value="0.1445" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/CountryList/app/src/main/res/drawable/ic_mode_night.xml" value="0.1445" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/CountryList/app/src/main/res/drawable/image_background.xml" value="0.1445" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/CountryList/app/src/main/res/drawable/oval_background.xml" value="0.1445" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/CountryList/app/src/main/res/drawable/results_background.xml" value="0.1445" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/CountryList/app/src/main/res/layout-v31/fragment_detail.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/CountryList/app/src/main/res/layout/activity_main.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/CountryList/app/src/main/res/layout/child_row.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/CountryList/app/src/main/res/layout/content_main.xml" value="0.1890625" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/CountryList/app/src/main/res/layout/country_list_details.xml" value="0.1" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/CountryList/app/src/main/res/layout/fragment_detail.xml" value="0.19010416666666666" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/CountryList/app/src/main/res/layout/fragment_overview.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/CountryList/app/src/main/res/layout/fragment_filter_modal_sheet.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/CountryList/app/src/main/res/layout/fragment_language_list.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/CountryList/app/src/main/res/layout/fragment_overview.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/CountryList/app/src/main/res/layout/header_title.xml" value="0.1890625" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/CountryList/app/src/main/res/layout/language_list_item.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/CountryList/app/src/main/res/layout/parent_row.xml" value="0.1" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/CountryList/app/src/main/res/menu/menu_main.xml" value="0.1890625" />
       </map>
     </option>

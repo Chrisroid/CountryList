@@ -53,6 +53,9 @@ dependencies {
     // ViewModel
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1'
 
+
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version"
     // Navigation
     implementation'androidx.navigation:navigation-fragment-ktx:2.5.3'
     implementation'androidx.navigation:navigation-ui-ktx:2.5.3'
@@ -66,6 +69,9 @@ dependencies {
 
     // Image Loading
     implementation 'com.squareup.picasso:picasso:2.71828'
+
+    // Lottie Animation
+    implementation "com.airbnb.android:lottie:$lottieVersion"
 
     // Unit Testing
     testImplementation 'org.robolectric:robolectric:4.8'
